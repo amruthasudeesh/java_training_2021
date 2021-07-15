@@ -1,0 +1,57 @@
+1.	Java Keywords
+	***************
+	Access modifiers 					− private, protected, public.
+	Class, method, variable modifiers	− abstract, class, extends, final, implements, interface, 
+											native, new, static, strictfp, synchronized, transient, volatile.
+	Flow control					 	− break, case, continue, default, do, else, for, if, instanceof, return, switch, while.
+	Package control						− import, package.
+	Primitive types						− boolean, byte, char, double, float, int, long, short.
+	Error handling						− assert, catch, finally, throw, throws, try.
+	Enumeration							− enum.
+	Others								− super, this, void.
+	Unused								− const, goto
+
+2.	Go through ASCII, UNICODE, UTF-8, UTF-16
+
+	ASCII, abbreviation of American Standard Code For Information Interchange, a standard data-transmission code
+	Originally based on the English alphabet, ASCII encodes 128 specified characters into seven-bit integers as shown by the ASCII
+	example:
+	65-90 	A-Z
+	97-122 	a-z
+
+	Unicode is a universal character encoding standard. It defines the way individual characters are represented in text files, web pages, and other types of documents. ... While ASCII only uses one byte to represent each character, Unicode supports up to 4 bytes for each character.
+	
+	The main difference between UTF-8, UTF-16, and UTF-32 character encoding is how many bytes it requires to represent a character in memory.
+	UTF-8 uses a minimum of one byte, 
+	UTF-16 uses a minimum of 2 bytes.
+	UTF-32 is a fixed-width encoding scheme and always uses 4 bytes
+
+Read more: https://javarevisited.blogspot.com/2015/02/difference-between-utf-8-utf-16-and-utf.html#ixzz70gu4jIgU
+
+Read more: https://javarevisited.blogspot.com/2015/02/difference-between-utf-8-utf-16-and-utf.html#ixzz70gtvHZ4A
+	
+3. Understand what is 1's complement and 2's complement formats.
+	1's complement of a binary number is another binary number obtained by toggling all bits in it, i.e., transforming the 0 bit to 1 and the 1 bit to 0. 
+	2's complement of a binary number is 1, added to the 1's complement of the binary number
+	binary of 9 is 1001
+	1's complement of 1001 is 0110
+	2's complement of 1001 is 0111
+
+4. Understand what is binary representation, Octal, Decimal, Hexadecimal representation in numbers.
+
+	Decimal	10	0, 1, 2, 3, 4, 5, 6, 7, 8, 9	
+	Octal 	8	0, 1, 2, 3, 4, 5, 6, 7, 8,
+	Binary	2	0, 1	
+	Hexadecimal	16	0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A,B, C, D, E, 
+
+	8 - 1000 binary representation
+	8 - 8  decimal representation
+	8 - 10 octal representation
+	8 - 8 hexadecimal representation.
+
+	
+	15 - 1111 binary representation
+	15 - 15  decimal representation
+	15 - 17 divide by 8 and add to quotient so 15/8=>17 octal representation
+	15 - A hexadecimal representation.
+
